@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import os
-from ml.DetectiveURL.extract_url_features import extract_url_features
+from extract_url_features import extract_url_features
 from dotenv import load_dotenv
 load_dotenv()
 app = FastAPI()
